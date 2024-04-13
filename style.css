@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    /* display: flex;
+    flex-direction: column; */
+    margin: 10px 200px;
+    /* padding: 40px; */
+    /* display:flex; */
+    justify-content: center;
+    width:70%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cover{
+    display:flex;
+    flex-basis: 1;
+    margin-bottom: 50px;
+    justify-self: center;
+}
+.fitness{
+    /* width:35rem; */
+    background-color:#7036BA;
+    color:white;
+    /* padding: 30px 30px 150px 180px; */
+}
+.fitness>h2{
+    font-size: 100px;
+}
+.logo{
+    display:flex;
+}
+.online{
+    padding: 40px 50px;
+}
+.btn{
+    border-radius: 20px;
+    padding: 10px 35px;
+    background-color:rgb(47, 174, 152);
+    color: white;
+    font-size:larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.weight > img{
+    /* width: 50%; */
+    height: 100%;
+}
+.about{
+    display:flex;
+    justify-content: center;
+    margin-top: 100px;
+    /* margin: 200px 0; */
+}
+.us{
+    display:flex;
+    justify-content: center;
+    font-size: x-large;
+    /* margin-left: 25%;
+    justify-self: center; */
+}
+.runner, .to>h2, .to p{
+    display:flex;
+    justify-content: center;
+    }
+.runner >img{
+    margin-left:50px;   
+    width: 30%;
+}
+.how{
+padding: 50px;
+}
+.how, .faq, .footer{
+    margin-top: 50px;
+    background-color: #7036BA;
+    color:white;
+}
+/* .to>h2 {
+    font-size: 40px;
+} */
+.howTo{
+    display: flex;
+    justify-content: center;
+    padding:50px;
+}
+.one, .two, .three{
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+    margin: 0 20px;
+}
+.arrow{
+vertical-align: middle;
+    padding: 40px 0;
+}
+.featuresImg{
+    display: flex;
+    justify-content: center;
+}
+.ftrs, .pr, .to >h2, .feedback>h2{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.f1, .f2, .f3{
+    width: 250px;
+}
+.f1 >p, .f2 >p, .f3 >p{
+    font-size: x-small;
+    font-weight: lighter;
+}
+.features >.btn{
+    align-self: center;
+    /* margin-left: 50%; */
+    margin: 20px 40%;
+}
+
+.pricing{
+    background-color: #7036BA;
+}
+.inner{
+    display: flex;
+    justify-content: center;
+}
+.pr{
+    color: white;
+}
+.pd1,.pd2,.pd3{
+    background-color: #A76BF2;
+    color:white;
+    width: 300px;
+   margin-left: 30px;
+    margin-bottom:20px;
+}
+
+.feed{
+    display: flex;
+    justify-content: center;
+    padding: 20px 200px 50px 50px;
+}
+
+
+
+
+.footer{
+    text-decoration: none;
+}
